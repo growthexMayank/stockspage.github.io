@@ -1,0 +1,75 @@
+
+  :root {
+    --primary-colour: rgba(255, 137, 2, 0.947);
+    --secondary-colour: rgb(255, 202, 150, 0.34);
+    --white: #ffff;
+    --text-colour: rgb(94, 91, 91);
+    --green: rgb(5, 153, 5);
+    --red: rgb(186, 47, 0);
+  }
+  
+  .flex {
+    display: flex;
+  }
+  .flex-coloumn {
+    flex-direction: column;
+  }
+  .justify-center {
+    justify-content: center;
+  }
+  .justify-between {
+    justify-content: space-between;
+  }
+  .space-between{
+    margin: 20px 0px;
+  }
+  .item-center {
+    align-items: center;
+  }
+  .text-primary-colour {
+    color: var(--primary-colour);
+  }
+  .text-secondary {
+    color: var(--text-colour);
+  }
+  .text-white {
+    color: var(--white);
+  }
+  .text-red {
+    color: var(--red);
+  }
+  .text-green {
+    color: var(--green);
+  }
+  .bg-primary-colour {
+    background-color: var(--primary-colour);
+  }
+  .bg-secondary-colour {
+    background-color: var(--secondary-colour);
+  }
+  .bg-white {
+    background-color: var(--white);
+  }
+  
+  .border-bottom {
+    border-bottom: 0.1rem solid black;
+  }
+  .list-style-none {
+    list-style: none;
+  }
+  .text-decoration-none {
+    text-decoration: none;
+  }
+  .text-align-center {
+    text-align: center;
+  }
+ .back-hover{
+    background-color: var(--white);
+    color: var(--primary-colour);
+    border: 2px solid var(--white);
+    border-radius: 8px;
+    box-shadow: rgba(181, 62, 7, 0.2) 0px 8px 24px;
+ }
+ .mx-t-b{
+    margin: 21px 0px;
+ }

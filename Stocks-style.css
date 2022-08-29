@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: 'Open Sans', sans-serif;
+     
+  }
+  :root {
+    --primary-colour: rgba(255, 137, 2, 0.947);
+    --secondary-colour: rgb(255, 202, 150, 0.34);
+    --white: #ffff;
+    --text-colour: rgb(94, 91, 91);
+    --green: rgb(5, 153, 5);
+    --red: rgb(186, 47, 0);
+  }
+.sidebar{
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 16.2rem;
+    height: 100vh;
+    padding: 12px 25px;
+    padding-right: 0px;
+    /* padding-right: 50px ; */
+    transition: all 0.6s ease;
+    /* border: 2px solid black; */
+}
+.logo{
+    margin-bottom: 50px;
+}
+.logo_name{
+    
+    line-height: 50px;
+    font-family: Roboto Mono;
+    font-size: 2rem;
+    font-weight: bold;
+}
+#btn{
+    line-height: 50px;
+    /* position: absolute; */
+    /* left: 90%; */
+    font-size: 30px;
+}
+.nav i{
+    font-size: 35px;
+    line-height: 85px;
+}
+.nav ul li{
+    margin: 40px 0px;
+}
+.nav ul li a:hover{
+    background-color: var(--white);
+    box-shadow: rgba(181, 62, 7, 0.2) 0px 8px 24px;
+    border: 2px solid var(--white);
+    border-radius: 8px;
+    background-color: var(--white);
+    color: var(--primary-colour);
+    
+}
+.nav ul li a{
+    height: 50px;
+    width: 298px;
+    padding: 13px 35px;
+    transition: all 0.5s ease;
+}
+.navlist{
+    line-height: 50px;
+    font-size: 25px;
+    font-weight: 650;
+    margin-left: 20px;
+}
+.sidebar.active{
+    width: 3rem;
+    padding: 0;
+    padding-left: 15px;
+    /* background: none; */
+}
+.sidebar.active .logo_name{
+    display:none;
+}
+.sidebar.active .navlist{
+    display:none;
+    margin: 0;
+}
+.sidebar.active a{
+    padding: 0;
+    padding-top: 15px;
+    margin: 0;
+    width: 40px;
+    height: 30px;
+}
+
+#main{
+    height: 100vh;
+    width: 1063px;
+    margin-left: 317px;
+    /* border: 2px solid black; */
+} 
+#main p{
+    line-height: 50px;
+    font-weight: bold;
+}
+#main.active{
+    margin-left: 61px;
+}
+.subsiLogo{
+    font-size: 2rem;
+    font-family: Roboto Mono;
+    display: none;
+    transition: all 0.6s ease-in;
+    position: fixed;
+}
+.subsiLogo.active{
+    display: block;
+}
+.account img{
+    height: 50px;
+    /* border: 2px solid black; */
+}
+.account{
+    margin-left: 982px;
+    /* position: fixed; */
+    /* left: 99%; */
+}
+.account.active{
+    margin-left: 1200px;
+}
+.box{
+    margin: 21px 10px ;
+    width: 441px;
+    height: 188px;
+    /* border: 2px solid blue; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+.box:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.stocks{
+    margin-left: 83px;
+    position: sticky;
+}
+.stocks.active{
+    margin-left: 249px;
+    /* border: 2px solid red; */
+    height: 222px;
+    width: 959px;
+}
+.stocks.active .box{
+    width: 500px;
+}
+.box .left p{
+    font-size: 20px;
+}
+.buy-btn{
+    border: 2px solid var(--primary-colour);
+    background-color: var(--primary-colour);
+    color: var(--white);
+    border-radius: 8px;
+    width: 88px;
+    height: 35px;
+    font-size: 21px;
+    margin-left: 50px;
+}
+.stocks{
+    margin-top: 100px;
+}
+.buy-btn:hover{
+    background-color: rgba(237, 127, 1, 0.986);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.pros-cons{
+    margin-bottom: 43px;
+}

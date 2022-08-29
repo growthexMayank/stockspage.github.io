@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <!-- Css Files -->
+  <link rel="stylesheet" href="Stocks-style.css" />
+  <link rel="stylesheet" href="Stocks-utils.css" />
+
+  <!-- Links for Fonts From Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto+Mono:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <!-- Box Icon link  -->
+  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="flex">
+    <div id="aside" class="sidebar bg-primary-colour">
+      <div class="logo">
+        <div class="flex justify-between">
+          <p class="logo_name text-white">GrowthX</p>
+          <i class="bx bx-menu text-white" id="btn"></i>
+        </div>
+      </div>
+      <div class="nav">
+        <ul class="">
+          <li class="list-style-none">
+            <a class="text-decoration-none text-white back-hover flex item-center" href="#"><i class="bx bx-trending-up"
+                id="nav_icon"></i><span class="navlist">Stocks</span></a>
+          </li>
+          <li class="list-style-none">
+            <a class="text-decoration-none text-white flex item-center" href="#"><i class="bx bxs-folder"
+                id="nav_icon"></i><span class="navlist">Portfolio</span></a>
+          </li>
+          <li class="list-style-none">
+            <a class="text-decoration-none text-white flex item-center" href="/contact.html"><i class="bx bxs-contact"
+                id="nav_icon"></i><span class="navlist">Contact us</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="main">
+      <div class="flex justify-between">
+        <div class="subsiLogo text-primary-colour">
+          <p>GrowtheX</p>
+        </div>
+        <div class="account"><img src="face.jfif" alt="" /></div>
+      </div>
+      <div class="stocks">
+        <div class="flex">
+          <div class="box flex justify-between item-center">
+            <div class="left text-align-center">
+              <p>S&P BSE SENSEX INDEX</p>
+            </div>
+            <div class="right text-align-center flex flex-coloumn justify-between">
+              <p class="text-green">₹58,833.87</p>
+              <div class="pros-cons text-green">▲ 59.15 (0.10%))</div>
+              <button class="buy-btn"><a class="text-decoration-none text-white" href="/Buy-page/sensex.html">Buy</a> </button>
+            </div>
+          </div>
+
+          <div class="box flex justify-between item-center </div>">
+            <div class="left text-align-center">
+              <p>NIFTY 50 INDEX</p>
+            </div>
+            <div class="right text-align-center flex flex-coloumn justify-between">
+              <p class="text-green">₹17,558.90</p>
+              <div class="pros-cons text-green">▲ 36.45 (0.21%)</div>
+              <button class="buy-btn"><a class="text-decoration-none text-white" href="/Buy-page/Nifty.html">Buy</a> </button>
+            </div>
+          </div>
+        </div>
+        <div class="flex">
+          <div class="box flex justify-between item-center">
+            <div class="left text-align-center">
+              <p>REIANCE INDUSTRIES LTD</p>
+            </div>
+            <div class="right text-align-center flex flex-coloumn justify-between">
+              <p class="text-green">₹2,618.00</p>
+              <div class="pros-cons text-red">▼ 14.05 (0.53%)</div>
+              <button class="buy-btn"><a class="text-decoration-none text-white" href="/Buy-page/Reliance.html">Buy</a> </button>
+            </div>
+          </div>
+
+          <div class="box flex justify-between item-center </div>">
+            <div class="left text-align-center">
+              <p>INFOSYS LTD</p>
+            </div>
+            <div class="right text-align-center flex flex-coloumn justify-between">
+              <p class="text-green">₹1,521.85</p>
+              <div class="pros-cons text-green">▲ 3.00 (0.20%)</div>
+              <button class="buy-btn"><a class="text-decoration-none text-white" href="/Buy-page/infosys.html">Buy</a> </button>
+            </div>
+          </div>
+        </div>
+        <div class="flex">
+          <div class="box flex justify-between item-center">
+            <div class="left text-align-center">
+              <p>TATA POWER COMPANY LTD</p>
+            </div>
+            <div class="right text-align-center flex flex-coloumn justify-between">
+              <p class="text-green">₹235.10</p>
+              <div class="pros-cons text-green">▲ 5.80 (2.53%)</div>
+              <button class="buy-btn"><a class="text-decoration-none text-white" href="/Buy-page/Tata.html">Buy</a> </button>
+            </div>
+          </div>
+
+          <div class="box flex justify-between item-center </div>">
+            <div class="left text-align-center">
+              <p>NASDAQ</p>
+            </div>
+            <div class="right text-align-center flex flex-coloumn justify-between">
+              <p class="text-green">₹12,141.71</p>
+              <div class="pros-cons text-red">▼497.56 (3.94%)
+              </div>
+              <button class="buy-btn"><a class="text-decoration-none text-white" href="/Buy-page/Nasdaq.html">Buy</a> </button>
+            </div>
+          </div>
+        </div>
+        <div class="flex">
+          <div class="box flex justify-between item-center">
+            <div class="left text-align-center">
+              <p>DOW</p>
+            </div>
+            <div class="right text-align-center flex flex-coloumn justify-between">
+              <p class="text-green">₹32,283.40</p>
+              <div class="pros-cons text-red">▼1,008.38 (-3.03%)
+              </div>
+              <button class="buy-btn"><a class="text-decoration-none text-white" href="/Buy-page/Dow.html">Buy</a> </button>
+            </div>
+          </div>
+
+          <div class="box flex justify-between item-center </div>">
+            <div class="left text-align-center">
+              <p>UNION BANK OF INDIA LTD</p>
+            </div>
+            <div class="right text-align-center flex flex-coloumn justify-between">
+              <p class="text-green">₹42.55</p>
+              <div class="pros-cons text-red">▲ 0.25 (0.59%)
+              </div>
+              <button class="buy-btn"><a class="text-decoration-none text-white" href="/Buy-page/unionbank.html">Buy</a> </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+<script src="menu.js"></script>
+</html>
